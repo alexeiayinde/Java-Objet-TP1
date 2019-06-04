@@ -21,6 +21,11 @@ public final class Car extends Vehicule {
 		return super.showVehicule() + "\nPrésence autoradio : " + this.hasRadio;
 	}
 
+	@Override
+	public String toString() {
+		return super.toString() + "\nPrésence autoradio : " + this.hasRadio;
+	}
+
 	public boolean isHasRadio() {
 		return hasRadio;
 	}

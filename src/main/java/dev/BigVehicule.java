@@ -17,4 +17,14 @@ public class BigVehicule extends Vehicule {
 		this.volume = volume;
 	}
 
+	@Override
+	public String showVehicule() {
+		return super.showVehicule() + "\nVolume de stockage - " + this.volume + " m3";
+	}
+
+	@Override
+	public String toString() {
+		return super.toString() + "\nVolume de stockage - " + this.volume + " m3";
+	}
+
 }

@@ -7,14 +7,6 @@ public final class Truck extends BigVehicule {
 	}
 
 	public boolean canTransportVolume(float volume) {
-		if (this.volume >= volume)
-			return true;
-		else
-			return false;
-	}
-
-	@Override
-	public String showVehicule() {
-		return super.showVehicule() + "\nVolume de stockage - " + this.volume + " m3";
+		return this.volume >= volume;
 	}
 }

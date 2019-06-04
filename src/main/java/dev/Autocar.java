@@ -30,4 +30,10 @@ public final class Autocar extends BigVehicule {
 		return super.showVehicule() + "\nVolume de stockage - " + this.volume + " m3\nNombre de passagers max - "
 				+ this.nbPassengersMax;
 	}
+
+	@Override
+	public String toString() {
+		return super.toString() + "\nVolume de stockage - " + this.volume + " m3\nNombre de passagers max - "
+				+ this.nbPassengersMax;
+	}
 }

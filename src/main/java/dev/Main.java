@@ -24,6 +24,7 @@ public class Main {
 		System.out.println(autocar1.showVehicule());
 		System.out.println("L'autocar peut transporter 40 passagers ayant chacun 0,1 m3 de bagages : "
 				+ autocar1.canTransportPassengers(40, 0.3f));
+
 	}
 
 }

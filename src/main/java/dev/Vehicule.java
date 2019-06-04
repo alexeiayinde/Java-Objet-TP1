@@ -65,6 +65,12 @@ public class Vehicule {
 				+ "\nNuméro d'immatriculation - " + this.plateNumber + "\nPermis nécessaire - " + this.permit;
 	}
 
+	@Override
+	public String toString() {
+		return "Modèle - " + this.model + "\nAnnée d'achat - " + this.yearOfPurchase + "\nPrix - " + this.price
+				+ "\nNuméro d'immatriculation - " + this.plateNumber + "\nPermis nécessaire - " + this.permit;
+	}
+
 	public float rentCost() {
 		if (this.age() < 1)
 			return price / 200;
